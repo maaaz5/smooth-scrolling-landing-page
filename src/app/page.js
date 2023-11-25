@@ -3,6 +3,7 @@ import { useEffect } from "react";
 
 import Intro from "../components/Intro";
 import Description from "../components/Description";
+import Projects from "../components/Projects";
 
 export default function Home() {
   useEffect(() => {
@@ -16,6 +17,7 @@ export default function Home() {
     <main>
       <Intro />
       <Description />
+      <Projects />
     </main>
   );
 }
