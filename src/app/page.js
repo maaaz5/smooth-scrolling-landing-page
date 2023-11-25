@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 
 import Intro from "../components/Intro";
+import Description from "../components/Description";
 
 export default function Home() {
   useEffect(() => {
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <main>
       <Intro />
+      <Description />
     </main>
   );
 }
